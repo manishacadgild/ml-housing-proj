@@ -3,7 +3,7 @@ from typing import List
 
 #Declaring variables for setup functions
 PROJECT_NAME="housing-predictor"
-VERSION="0.0.2"
+VERSION="0.0.3"
 AUTHOR="Manish Jha"
 DESRCIPTION="This is a Machine Learning Project"
 
@@ -25,8 +25,6 @@ def get_requirements_list() -> List[str]:
         if HYPHEN_E_DOT in requirement_list:
             requirement_list.remove(HYPHEN_E_DOT)
         return requirement_list
-
-
 
 setup(
 name=PROJECT_NAME,
